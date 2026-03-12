@@ -1,0 +1,18 @@
+#Requires AutoHotkey v2.0
+
+; Arrays needed for combo boxes
+StateList := ["AL - Alabama", "AK - Alaska", "AZ - Arizona", "AR - Arkansas", "CA - California", "CO - Colorado", "CT - Connecticut", "DE - Delaware", "DC - Washington DC", "FL - Florida", "GA - Georgia", "HI - Hawaii", "ID - Idaho", "IL - Illinois", "IN - Indiana", "IA - Iowa", "KS - Kansas", "KY - Kentucky", "LA - Louisiana", "ME - Maine", "MD - Maryland", "MA - Massachusetts", "MI - Michigan", "MN - Minnesota", "MS - Mississippi", "MO - Missouri", "MT - Montana", "NE - Nebraska", "NV - Nevada", "NH - New Hampshire", "NJ - New Jersey", "NM - New Mexico", "NY - New York", "NC - North Carolina", "ND - North Dakota", "OH - Ohio", "OK - Oklahoma", "OR - Oregon", "PA - Pennsylvania", "RI - Rhode Island", "SC - South Carolina", "SD - South Dakota", "TN - Tennessee", "TX - Texas", "UT - Utah", "VT - Vermont", "VA - Virginia", "WA - Washington", "WV - West Virginia", "WI - Wisconsin", "WY - Wyoming"]
+CashOptions := ['Cash-Out Refi', 'No_Cash-Out Refi', 'Purchase']
+LoanTypes := ['FHA', 'VA - Exempt', 'VA - Non-Exempt','Conv', 'USDA-RHS']
+BpcLpcOption := ["BPC","LPC"]
+PropConditionList := ['As Is', 'Subj. to Change']
+LockOptions := ["New Lock", "LC Lock", "Update Pricing", "Lock", "Relock Request", "Relock Reason", "Expired Relock", "Extension", "Free Extension", "LPC to BPC", "BPC to LPC"]
+CashToCloseOptions := ["To","From"]
+PointOptions := ["Points", "Lender Credit"]
+LePointOptions := ["LE Points", "LE Lender Credit"]
+AmortizationTypes := ["Fixed", "ARM"]
+CocTypes := ["203(k) Title Update Fee", "Abstract Or Title Search Fee", "Assignment Fee", "Attendance/Pickup Fee", "Attorney's Fee", "Attorney's Fees", "Attorney's Fees-Borrower Chosen", "Attorney's Fees-Borrower's Attorney", "Closing Fee", "Closing Protection Letter", "Courier Fee", "Document Preparation Fee", "Document Preparation Fees", "Document Redraw Fee", "Flood Determination Fee", "Guaranty Fee", "IA Title Guaranty Fee", "IL State Policy Fee", "IN Title Insurance Enforcement Fund Fee", "Lender's Title Ins.", "Lender's Title Policy", "Loan Tie In Fee", "Municipal Lien Fee", "Notary Fee", "Notary Fees", "Owner's Title Policy", "Recording Fee", "Recording Fees", "Recording Service Fee", "Release Services", "Sales Tax Title Insurance", "Settlement Fee", "Settlement or Closing Fee", "Signing Agent Fee", "State Policy Fee", "Tax Status Research Fee", "Texas Title Insurance Guarantee", "Title Electronic Document Delivery Fee", "Title Endorsement Fee", "Title Examination", "Title Insurance", "Title Insurance Binder", "Title Insurance Enforcement Fund Fee", "Title Processing Fee", "Title Search", "Title Services and Lender's Title Insurance", "Transfer Tax", "UCC Termination Fee", "Wire Transfer Fee"]
+FeeChanges := ["Increased", "Decreased", "Added", "Removed", "Marked Paid By Seller"]
+TitleFeeChangeReason := ['New Sheet', 'New Title Company']
+FieldsAndDefaults := [["PointsOption", "1"],["LpcBpc", "1"],["LePointsOption", "1"],["CashToCloseType", "1"],["TitleFeeChangeReason", "1"],["CoCType1", "32"],["CoCType2", "9"],["CoCType3", "39"],["CoCType4", "24"],["CoCType5", "27"],["CoCType6", "29"],["CoCType7", "12"],["CoCType8", "10"],["CoCType9", "49"],["CoCType10", "20"],["CoCType11", "28"],["CoCType12", "47"]]
+FieldsThatHaveDefaults := ["PointsOption", "LpcBpc", "LePointsOption", "CashToCloseType", "TitleFeeChangeReason", "CoCType1", "CoCType2", "CoCType3", "CoCType4", "CoCType5", "CoCType6", "CoCType7", "CoCType8", "CoCType9", "CoCType10", "CoCType11", "CoCType12"]
